@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+header{
+    height: 80px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2em;
+    font-weight: 400;
+    background-color: antiquewhite;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(235, 235, 224, 0.651);
+    width: 1240px;
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.food {
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.15em;
+    color: rgb(122, 120, 120);
+}
+span{
+    color: black;
+}
+
+.images{
+    
+    width: 270px;
+
+}
+
+.menu-info{
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
